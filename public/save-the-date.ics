@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Your Website//Save the Date//EN
+BEGIN:VEVENT
+UID:20250920T120000Z-unique-id@yourdomain.com
+DTSTAMP:20250807T092423Z
+DTSTART:20250920T120000Z
+DTEND:20250921T000000Z
+SUMMARY:Свадьба Максима и Ани
+DESCRIPTION:Мы Вас ждем на наш праздник!
+LOCATION:Baranavichy, Belarus, Restoran Krokus, ул. Комсомольская улица, 61, (Старый парк)
+END:VEVENT
+END:VCALENDAR

@@ -26,9 +26,10 @@ const CalendarSection = () => (
       <tr><td>29</td><td>30</td><td></td><td></td><td></td><td></td><td></td></tr>
     </tbody>
   </table>
-  <h4>
-    Будем рады разделить этот день <br/> вместе с Вами.
-  </h4>
+   <h5 className="calendar-text">
+      Этот осенний день станет для нас особенно важным, и мы будем рады провести
+      его в кругу самых близких и родных людей.
+    </h5>
   <a href="/save-the-date.ics" download className="btn">
     <button>Сохранить в календарь</button>
   </a>

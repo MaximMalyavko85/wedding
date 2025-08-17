@@ -67,19 +67,22 @@ const CountdownTimer = () => {
         <div className="countdown-grid">
           <div className="countdown-item">
             <span>{timeLeft.days}</span>
-            <p>Days</p>
+            <p>Дней</p>
           </div>
+          <span className="countdown__divider">:</span>
           <div className="countdown-item">
             <span>{timeLeft.hours}</span>
-            <p>Hours</p>
+            <p>Часов</p>
           </div>
+          <span className="countdown__divider">:</span>
           <div className="countdown-item">
             <span>{timeLeft.minutes}</span>
-            <p>Minutes</p>
+            <p>Минут</p>
           </div>
+          <span className="countdown__divider">:</span>
           <div className="countdown-item">
             <span>{timeLeft.seconds}</span>
-            <p>Seconds</p>
+            <p>Секунд</p>
           </div>
         </div>
       </motion.div>

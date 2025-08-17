@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  color: #3a3a3a;
-  font-family: 'PT Serif', serif;
+  color: #628069;
+  font-family: 'Marck Script', cursive;
   overflow-x: hidden;
 }
 
@@ -11,17 +11,17 @@ body {
 }
 
 h1 {
-  font-family: 'Marck Script', cursive;
   font-weight: 400;
   font-size: 3rem;
   line-height: 30px;
 }
 
-p, h2, h3, h4, h5, h6{
-  font-family: 'Ubuntu', sans-serif;
+p, h2, h3, h4, h5, h6, span{
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin: 0;
   line-height: 25px;
+  color: #628069;
 }
 
 h2 {
@@ -88,6 +88,8 @@ button {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  width: fit-content;
+  margin: auto;
   
 }
 
@@ -110,6 +112,7 @@ button {
     font-weight: 600;
     z-index: 2;
     line-height: 53px;
+    font-family: 'Marck Script', cursive;
   }
 
   h3 {
@@ -144,6 +147,7 @@ button {
     padding: 0 20px;
     box-sizing: border-box;
     font-weight: 600;
+    color: #fff;
 }
 
 .header-section .header_date {
@@ -154,6 +158,7 @@ button {
     font-size: 20px;
     z-index: 2;
     height: 50px;
+    color: #fff;
 }
 
 .header-section .header_date img {
@@ -164,12 +169,18 @@ button {
   display: block;
   text-align: left;
   padding-left: 16vw;
+  font-family: 'Marck Script', cursive;
+  color: #fff;
+  font-size: 60px;
 }
 
 .header__subtext2 {
   display: block;
   text-align: right;
   padding-right: 16vw;
+  font-family: 'Marck Script', cursive;
+  color: #fff;
+  font-size: 60px;
 }
 
 .header_img {
@@ -229,29 +240,31 @@ button {
   height: 120px;
 }
 
-.countdown {
-  padding: 20px;
-}
+.countdown {}
 
 .countdown-grid {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
   flex-wrap: wrap;
+  margin-top: -20px;
 }
 
 .countdown-item {
-  background: #fff;
-  padding: 10px 20px;
   border-radius: 10px;
-  min-width: 80px;
   text-align: justify;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.countdown__divider {
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 4px;
 }
 
 .countdown-item span {
   display: block;
-  font-size: 2.3rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #a0522d;
   line-height: 40px;
@@ -265,7 +278,6 @@ button {
 }
 
 .countdown.wedding-day {
-  font-family: 'Playfair Display', serif;
   font-size: 3rem;
   color: #e91e63;
   position: relative;
@@ -338,6 +350,10 @@ button {
   right: -4px;
   width: 45px;
   height: 52px;
+}
+
+h5.calendar-text {
+  color: #628069;
 }
 
 .timing_container {

@@ -35,7 +35,7 @@ const EventDetails = () => (<>
     </motion.section>
 
      <div className="event-map">
-      {/* <iframe
+      <iframe
         src="https://www.google.com/maps?q=Restoran+Krokus,+ул.+Комсомольская+улица,+61,+Старый+парк,+Baranavichy,+Belarus&output=embed"
         width="100%"
         height="100%"
@@ -44,7 +44,7 @@ const EventDetails = () => (<>
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
         title="Restoran Krokus Location"
-      ></iframe> */}
+      ></iframe>
     </div>
     
 
@@ -60,7 +60,7 @@ const EventDetails = () => (<>
           <img src={Timing1} className="timing_img"/>
           <div className="timing_item">
             <h2>15.30</h2>
-            <h6>фуршет</h6>
+            <h5>фуршет</h5>
           </div>
         </div>
 
@@ -68,7 +68,7 @@ const EventDetails = () => (<>
           <img src={Timing2} className="timing_img"/>
           <div className="timing_item">
             <h2>16.00</h2>
-            <h6>свадебная церемония</h6>
+            <h5>свадебная церемония</h5>
           </div>
         </div>
 
@@ -76,7 +76,7 @@ const EventDetails = () => (<>
           <img src={Timing3} className="timing_img"/>
           <div className="timing_item">
             <h2>17.00</h2>
-            <h6>праздничный банкет</h6>
+            <h5>праздничный банкет</h5>
           </div>
         </div>
 

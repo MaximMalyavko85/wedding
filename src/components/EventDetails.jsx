@@ -84,7 +84,7 @@ const EventDetails = () => (<>
           <img src={Timing4} className="timing_img"/>
           <div className="timing_item">
             <h2>23.00</h2>
-            <h6>свадебный торт</h6>
+            <h5>свадебный торт</h5>
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ h5 {
 }
 
 h6 {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -421,6 +421,10 @@ button {
   color: #fff;  
 }
 
+.footer_content .section_title {
+  text-align: left;
+  font-family: 'Marck Script', cursive;
+}
 
 /* Разные цвета и задержки для разнообразия */
 .piece-0 { background-color: #e91e63; left: 10%; animation-duration: 3s; animation-delay: 0s; top: -10px; }

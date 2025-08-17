@@ -60,7 +60,7 @@ const EventDetails = () => (<>
           <img src={Timing1} className="timing_img"/>
           <div className="timing_item">
             <h2>15.30</h2>
-            <h6>сбор гостей / <br/> фуршет</h6>
+            <h6>фуршет</h6>
           </div>
         </div>
 
@@ -68,7 +68,7 @@ const EventDetails = () => (<>
           <img src={Timing2} className="timing_img"/>
           <div className="timing_item">
             <h2>16.00</h2>
-            <h6>церемония</h6>
+            <h6>свадебная церемония</h6>
           </div>
         </div>
 
@@ -76,7 +76,7 @@ const EventDetails = () => (<>
           <img src={Timing3} className="timing_img"/>
           <div className="timing_item">
             <h2>17.00</h2>
-            <h6>праздничный ужин</h6>
+            <h6>праздничный банкет</h6>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ const EventDetails = () => (<>
           <img src={Timing4} className="timing_img"/>
           <div className="timing_item">
             <h2>23.00</h2>
-            <h6>окончание вечера</h6>
+            <h6>свадебный торт</h6>
           </div>
         </div>
       </div>

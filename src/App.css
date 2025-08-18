@@ -385,7 +385,6 @@ h5.calendar-text {
 }
 
 .timing_item h2 {
-  font-weight: 600;
   font-size: 2.5rem;
 }
 
@@ -450,10 +449,12 @@ h5.calendar-text {
   color: #fff;  
 }
 
-.footer_content .section_title {
+
+.footer_content .section_subtitle {
   text-align: right;
   font-family: 'Marck Script', cursive;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* Разные цвета и задержки для разнообразия */

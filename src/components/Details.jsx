@@ -8,7 +8,7 @@ const DetailsSection = () => (
     viewport={{ once: true }}
     transition={{ duration: 0.6 }}
   >
-    <h2 className="section_title">Детали</h2>
+    <h2 className="section_title">Подсказки и пожелания</h2>
     <h5>мы догадываемся о том, что после получения приглашения у Вас может появиться ряд вопросов:</h5>
 
     <div className="details_item"> 

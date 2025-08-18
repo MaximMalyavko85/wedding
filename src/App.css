@@ -168,19 +168,21 @@ button {
 .header__subtext1 {
   display: block;
   text-align: left;
-  padding-left: 16vw;
+  padding-left: 40px;
   font-size: 60px;
   color: #fff;
   font-family: 'Marck Script', cursive;
+  line-height: 65px;
 }
 
 .header__subtext2 {
   display: block;
   text-align: right;
-  padding-right: 16vw;
+  padding-right: 40px;
   font-family: 'Marck Script', cursive;
   color: #fff;
   font-size: 60px;
+  line-height: 65px;
 }
 
 .header_img {
@@ -223,9 +225,14 @@ button {
 }
 
 
+.event .section_title {
+  font-weight: 600;
+}
+
 .event a{
   margin-top: 20px;
 }
+
 
 .event-map {}
 
@@ -322,7 +329,6 @@ button {
   padding: 9px;
   text-align: center;
   font-size: 1.2rem;
- 
 }
 
 .calendar td {
@@ -333,6 +339,8 @@ button {
 .calendar-section h5 {
   margin-bottom: 20px;
   color: #a0522d;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .calendar-section h4 {
@@ -423,6 +431,10 @@ h5.calendar-text {
   width: 100%;
 }
 
+.section-chat p{
+  font-style: italic;
+}
+
 .card_item {
   margin: 30px 0;
   
@@ -433,7 +445,7 @@ h5.calendar-text {
 }
 
 .section_footer {
-  background: #5d2605;
+  background: #d8a58696;
   color: #fff;  
 }
 

@@ -19,8 +19,8 @@ const EventDetails = () => (<>
     transition={{ duration: 0.6 }}
   >
     <div className="event-block" variants={zoomVariant} transition={{ duration: 0.5 }}>
-      <h2 className="section_title">Церемония</h2>
-      <p>выездная церемония и празднование пройдут в <b>ресторане "Крокус", <br/>г.Барановичи, ул. Комсомольская, 61, <br/>(Старый парк)</b>  </p>
+      <h2 className="section_title">Место проведения торжества</h2>
+      <h5>выездная церемония и празднование <br/> пройдут  в ресторане "Крокус", г.Барановичи, ул. Комсомольская, 61, <br/>(Старый парк)</h5>
      
       </div>
 

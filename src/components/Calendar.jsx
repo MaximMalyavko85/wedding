@@ -10,7 +10,7 @@ const CalendarSection = () => (
     viewport={{ once: true }}
     transition={{ duration: 0.6 }}
   >
-    <h5>Сентябрь, 2025</h5>
+    <h5>Сентябрь 2025</h5>
    
    <table class="calendar">
     <thead>

@@ -1,9 +1,4 @@
 import { motion } from "framer-motion";
-import Timing1 from '../assets/timing1.png';
-import Timing2 from '../assets/timing2.png';
-import Timing3 from '../assets/timing3.png';
-import Timing4 from '../assets/timing4.png';
-import TimingLine from '../assets/time_line.png';
 
 const zoomVariant = {
   hidden: { scale: 0.8, opacity: 0 },
@@ -55,9 +50,7 @@ const EventDetails = () => (<>
     >
       <h2 className="section_title">Тайминг свадебного дня</h2>
       <div className="timing_wrapper">
-        <img src={TimingLine} className="time_line"/>
         <div className="timing_container">
-          <img src={Timing1} className="timing_img"/>
           <div className="timing_item">
             <h2>15.30</h2>
             <h5>фуршет</h5>
@@ -65,26 +58,23 @@ const EventDetails = () => (<>
         </div>
 
          <div className="timing_container">
-          <img src={Timing2} className="timing_img"/>
           <div className="timing_item">
             <h2>16.00</h2>
-            <h5>свадебная церемония</h5>
+            <h5>церемония</h5>
           </div>
         </div>
 
          <div className="timing_container">
-          <img src={Timing3} className="timing_img"/>
           <div className="timing_item">
             <h2>17.00</h2>
-            <h5>праздничный банкет</h5>
+            <h5> банкет</h5>
           </div>
         </div>
 
           <div className="timing_container">
-          <img src={Timing4} className="timing_img"/>
           <div className="timing_item">
             <h2>23.00</h2>
-            <h5>свадебный торт</h5>
+            <h5>финал</h5>
           </div>
         </div>
       </div>

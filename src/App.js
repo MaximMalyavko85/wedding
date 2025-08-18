@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import CoupleSection from "./components/CoupleSection";
 import EventDetails from "./components/EventDetails";
 import GalleryPlaceholder from "./components/GalleryPlaceholder";
-import RSVPSection from "./components/RSVPSection";
 import Footer from "./components/Footer";
 import CountdownTimer from "./components/CountdownTimer";
 import CalendarSection from "./components/Calendar";
@@ -32,7 +31,6 @@ function App() {
       <EventDetails />
       {/* <GalleryPlaceholder /> */}
       <DetailsSection />
-      <RSVPSection />
       {/* <QuestionnaireSection /> */}
       <ChatSection />
       <ContactsSection />

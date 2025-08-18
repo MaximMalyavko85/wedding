@@ -71,6 +71,7 @@ h6 {
   margin-bottom: 40px;
   text-align: center;
   font-size: 30px;
+  font-weight: 600;
 }
 
 button {
@@ -107,7 +108,7 @@ button {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 29vh;
+    top: 30vh;
     font-size: 50px;
     font-weight: 600;
     z-index: 2;
@@ -154,7 +155,8 @@ button {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 73vh;
+    top: auto;
+    bottom: 54px;
     font-size: 20px;
     z-index: 2;
     height: 50px;
@@ -186,11 +188,6 @@ button {
 }
 
 .header_img {
-  background-image: url('./assets/header_img.jpg');
-  background-size: cover;    
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 90vh;
   position: relative;
 }
 
@@ -200,8 +197,8 @@ button {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background: #6f381e8c;
+  bottom: 5px;
+  background: #06060663;
   z-index: 1;
 }
 
@@ -267,6 +264,7 @@ button {
   font-weight: 900;
   font-size: 40px;
   margin-top: 4px;
+  color: #a0522d;
 }
 
 .countdown-item span {
@@ -372,12 +370,23 @@ h5.calendar-text {
 
 .timing_item {
   text-align: left;
-  margin-left: 33px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding: 12px 15px;
+  width: 66%;
+  margin: auto;
 }
 
 .timing_item h5 {
-  margin-left: 18px;
-  color: #787878;
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.timing_item h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
 .timing_img {
@@ -397,31 +406,22 @@ h5.calendar-text {
 }
 
 .section-details h5 {
-  margin: 20px 0 40px;
+  margin: 0;
 }
 
 .details_item {
   text-align: left;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .details_item h5 {
   position: relative;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1rem;
   line-height: 23px;
-}
-
-.details_item h5::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 2px;
-  background: #a0522dd1;
-  bottom: 0;
+  text-align: center;
 }
 
 .section-questionnaire a {
@@ -432,8 +432,8 @@ h5.calendar-text {
   width: 100%;
 }
 
-.section-chat p{
-  font-style: italic;
+.section-chat p {
+ font-size: 1.2rem;
 }
 
 .card_item {
@@ -451,8 +451,9 @@ h5.calendar-text {
 }
 
 .footer_content .section_title {
-  text-align: left;
+  text-align: right;
   font-family: 'Marck Script', cursive;
+  margin-top: 15px;
 }
 
 /* Разные цвета и задержки для разнообразия */

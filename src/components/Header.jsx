@@ -27,7 +27,7 @@ const Header = () => {
       viewport={{ once: true }}
     >
       <motion.div
-        className="header_imgg"
+        className="header_img"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -43,8 +43,8 @@ const Header = () => {
         <motion.h1 variants={itemVariants}><span className="header__subtext1">Анна </span>&<span className="header__subtext2">Максим</span></motion.h1>
 
         <motion.h5 variants={itemVariants} className="header_date">
-          20 Сентября, 2025, <br/>Cуббота
-          <br /><br />
+          20 Сентября 2025 <br/>Cуббота
+          <br />
 
            <img src={Arrow} alt="Arrow"/>
         </motion.h5>

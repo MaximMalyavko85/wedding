@@ -376,12 +376,15 @@ h5.calendar-text {
   padding: 12px 15px;
   width: 66%;
   margin: auto;
+  position: relative;
 }
 
 .timing_item h5 {
   margin-left: 15px;
   font-weight: 600;
   font-size: 1.3rem;
+  position: absolute;
+  left: 120px;
 }
 
 .timing_item h2 {

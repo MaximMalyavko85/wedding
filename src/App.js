@@ -3,12 +3,9 @@ import "./App.css";
 import Header from "./components/Header";
 import CoupleSection from "./components/CoupleSection";
 import EventDetails from "./components/EventDetails";
-import GalleryPlaceholder from "./components/GalleryPlaceholder";
 import Footer from "./components/Footer";
 import CountdownTimer from "./components/CountdownTimer";
-import CalendarSection from "./components/Calendar";
 import DetailsSection from "./components/Details";
-import QuestionnaireSection from "./components/Questionnaire";
 import ChatSection from "./components/Chat";
 import ContactsSection from "./components/Contacts";
 

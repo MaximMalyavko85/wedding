@@ -33,7 +33,7 @@ const Header = () => {
         animate="visible"
       >
        <video width="100%" height="100%" autoPlay muted loop playsInline>
-        <source src="/bg.mp4" type="video/mp4" />
+        <source src="/bg1.mp4" type="video/mp4" />
       </video>
 
         <motion.h5 variants={itemVariants} className="invite__text">

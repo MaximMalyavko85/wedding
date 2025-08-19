@@ -27,7 +27,7 @@ const ContactsSection = () => (
         href="https://t.me/anastasiya_dyubaylo"
         target="_blank"
         rel="noopener noreferrer">
-        <button>Написть лично в Telegram</button>
+        <button>Написать лично в Telegram</button>
       </a>
     </div> 
   </motion.section>

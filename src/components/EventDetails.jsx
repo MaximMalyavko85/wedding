@@ -73,7 +73,7 @@ const EventDetails = () => (<>
 
           <div className="timing_container">
           <div className="timing_item">
-            <h2>23.00</h2>
+            <h2>23.30</h2>
             <h5>финал</h5>
           </div>
         </div>

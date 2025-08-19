@@ -40,7 +40,6 @@ const CountdownTimer = () => {
   }, []);
 
   if (!timeLeft) {
-    // День свадьбы!
     return (
       <motion.div
         className="countdown wedding-day"

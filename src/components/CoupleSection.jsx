@@ -20,7 +20,7 @@ const guests = {
   silitskaia_elena: "Дорогая Елена",
   ludmila_konstantin: "Дорогие Людмила Сергеевна и Константин Станиславович",
   ivanova_anna: "Дорогая Анна Викторовна",
-  gunko_zinaida_vladimir: "Дорогая Зинаида Константиновна и Владимир Павлович",
+  gunko_zinaida_vladimir: "Дорогие Зинаида Константиновна и Владимир Павлович",
   tutin_sergey_valentina: "Дорогие Сергей Вячеславович и Валентина Степановна",
   baneckaya_irina_ivan: "Дорогие Ирина Адамовна и Иван Иванович",
   anna_ivanovna: "Дорогая Анна Ивановна",

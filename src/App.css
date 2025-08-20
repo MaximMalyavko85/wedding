@@ -211,6 +211,13 @@ button {
   margin-top: 60px;
 }
 
+.couple-section h3 p{
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+  color: #a0522d;
+}
+
 .couple-section h5 {
   margin-top: 20px;
 }

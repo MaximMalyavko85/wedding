@@ -74,7 +74,7 @@ const EventDetails = () => (<>
           <div className="timing_container">
           <div className="timing_item">
             <h2>23.30</h2>
-            <h5>финал</h5>
+            <h5>торт</h5>
           </div>
         </div>
       </div>

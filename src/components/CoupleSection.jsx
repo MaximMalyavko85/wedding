@@ -17,7 +17,7 @@ const guests = {
   natasha_misha: "Дорогие Наташа, Миша, Маша и Макар",
   katia_dima: "Дорогие Катя и Дима",
   silitskaia_irina: "Дорогая Ирина",
-  silitskaia_elena: "Дорогая Елена",
+  silitskaia_elena_milana: "Дорогая Елена и Милана",
   ludmila_konstantin: "Дорогие Людмила Сергеевна и Константин Станиславович",
   ivanova_anna: "Дорогая Анна Викторовна",
   gunko_zinaida_vladimir: "Дорогие Зинаида Константиновна и Владимир Павлович",

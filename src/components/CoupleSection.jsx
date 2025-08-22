@@ -31,7 +31,7 @@ const guests = {
   vika_maksim: "Дорогие Вика и Максим",
   petki_mikalay_ira: "Дорогие Ира и Коля",
   bulatov_dima_natasha: "Дорогие Дима и Наташа",
-  ner_andrey: "Дорогой Андрей и тайная подруга",
+  andrey_natalia: "Дорогой Андрей и Наталия",
   lubov_alekseevna: "Дорогая Любовь Алексеевна",
   mira_tural: "Дорогие Мира и Турал",
   ales_veronika: "Дорогие Алесь и Вероника",
